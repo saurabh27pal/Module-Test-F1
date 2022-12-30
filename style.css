@@ -1,0 +1,270 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 640px) {
+    .navbar1 {
+        text-align: center;
+    }
+
+    .navbar1 {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 5px 0;
+    }
+
+    .innerContainer2 {
+        flex-direction: column;
+    }
+}
+
+header {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    padding: 10px 0;
+    border-bottom: 2px solid white;
+}
+
+.downbtn {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-top: 0px;
+}
+
+.downbtn button {
+    background-color: black;
+}
+
+body {
+    background-color: black;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0);
+}
+
+.navbar {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 10px 0;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    margin: 0 2rem;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo {
+    width: 50%;
+}
+
+.logo p {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding: 15px 0;
+    margin: 0 3rem;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.container {
+    background-color: black;
+}
+
+.innerContainer1 {
+    display: flex;
+    padding: 4vw 9vw 3vw 9vw;
+}
+
+.heading h1 {
+    font-size: 8vw;
+    color: white;
+    animation: rightfade .5s linear;
+}
+
+@keyframes rightfade {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.mainImage {
+    padding: 100px 20px 30px 30px;
+    margin: 100px 20px 30px 30px;
+
+}
+
+.mainImage>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container2 {
+    background-color: #fff;
+}
+
+.innerContainer2 {
+    display: flex;
+    padding: 5vw;
+}
+
+.aboutImg>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.innerContainer21 {
+    width: 50%;
+    padding: 7vw;
+}
+
+.innerContainer22 {
+    padding: 5vw;
+    font-size: 1vw;
+    width: 50%;
+}
+
+.card {
+    padding: 0px 50px;
+}
+
+.cardHeading {
+    padding: 20px;
+    font-size: 8vw;
+}
+
+.container3 {
+    background-color: #fff;
+    padding: 10vw 0 10vw 7vw;
+   
+
+}
+
+.innerContainer31 {
+    padding: 50px;
+    color: black;
+}
+
+.cardContainer {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    
+}
+
+.cardContainer::-webkit-scrollbar {
+    width: 5px;
+}
+
+.cardContainer::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.cards {
+    display: inline-block;
+    padding: 50px 30px;
+    margin: 10px 10px 30px 10px;
+    border: 2px solid black;
+    align-items: center;
+
+}
+
+.cards:hover {
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    font-size: 4vw;
+}
+
+.cards h3 {
+    margin-bottom: 10px;
+}
+
+/* --------------Contact Us-----------------------  */
+.ContactUs {
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 3rem 6rem;
+}
+
+#contactUsHeading {
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 3.5rem;
+    text-align: center;
+}
+
+.inputFields {
+    width: 100%;
+    font-size: 1.5rem;
+    margin: 0.8rem 0;
+    background-color: inherit;
+    color: white;
+    border: 1px solid white;
+    padding: 1rem;
+}
+
+::placeholder {
+    color: white;
+}
+
+.submitBtn {
+    font-size: 1.4rem;
+    padding: 0.75rem 5rem;
+}
